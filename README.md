@@ -10,7 +10,7 @@ The objective of this project is to design and simulate a Traffic Light Controll
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Verilog HDL
 - FSM (Finite State Machine)
