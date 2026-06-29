@@ -1,7 +1,3 @@
-# Finite State Machine (FSM) State Table
-
-This document describes the state transitions and output logic of the Smart Traffic Light Control System Finite State Machine (FSM).
-
 ## State Description
 
 - State 001 : Main Road 1 Green
