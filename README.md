@@ -13,24 +13,17 @@ The objective of this project is to design and simulate a Traffic Light Controll
 ## 🛠️ Tools Used
 
 - Verilog HDL
-- Xilinx Vivado
-- FPGA
 - FSM (Finite State Machine)
 
----
-
-## ✨ Features
+## Features
 
 - FSM-based traffic control
 - Six operating states
 - Automatic state transitions
 - Separate control for four traffic signals
-- Simulation and synthesis performed in Vivado
-- FPGA compatible design
 
----
 
-## 🚦 Traffic Signals
+## Traffic Signals
 
 The controller manages the following roads:
 
@@ -43,13 +36,13 @@ Each signal uses 3-bit encoding:
 
 | Code | Light |
 |------|-------|
-| 100 | 🔴 Red |
-| 010 | 🟡 Yellow |
-| 001 | 🟢 Green |
+| 100 | Red |
+| 010 | Yellow |
+| 001 | Green |
 
 ---
 
-## 🔄 State Sequence
+## State Sequence
 
 ```
 S1 → S2 → S3 → S4 → S5 → S6 → S1
@@ -59,50 +52,5 @@ The controller continuously cycles through these six states to regulate traffic 
 
 ---
 
-## 📂 Project Structure
-
-```
-Traffic-Light-Controller/
-│
-├── Traffic_Light_Controller.v
-├── Traffic_Light_Controller_TB.v
-├── STATE_TABLE.md
-├── images/
-│   ├── State_Diagram.png
-│   ├── RTL_Schematic.png
-│   ├── Simulation_Waveform.png
-│   └── Schematic.png
-└── README.md
-```
-
----
-
-## 📸 Results
-
-The project includes:
-
-- FSM State Diagram
-- State Table
-- RTL Schematic
-- Simulation Waveform
-- Synthesis Reports
-- Implementation Reports
-
----
-
-## 📚 References
-
-- NPTEL Digital Design Lectures
-- Xilinx Vivado Documentation
-- Verilog FSM Design Resources
-
----
-
-## 👨‍💻 Author
-
-**Ekjot Singh Kundal**
-
-B.Tech Electrical Engineering  
-Indian Institute of Technology (IIT) Ropar
 
 
