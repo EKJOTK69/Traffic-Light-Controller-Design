@@ -6,7 +6,6 @@
 - State 100 : Turn Road Green
 - State 101 : Side Road Green
 - State 110 : Transition from Side Road
-- State 111 : Reset/Error State
 
 ---
 
